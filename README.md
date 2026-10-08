@@ -24,4 +24,4 @@ git -C "$env:USERPROFILE\.codex\skills\explain-clearly" pull
 - `$explain-clearly 用图解释这段代码的数据流。`
 - `$explain-clearly 做一个能调参数的页面，让我理解这个算法。`
 
-这个 skill 会根据任务选择形式，不会为简单问题自动制作网页或视频。它借鉴 ASD-STE100 的清晰写作目标，但不包含标准全文，也不进行正式合规认证。需要严格遵守该标准时，请从 [官方渠道](https://www.asd-ste100.org/STE_downloads.html) 获取当前版本并核对完整规则和词典。
+这个 skill 会根据任务选择形式。解释整个代码仓库、系统架构或跨模块流程时，默认提供结构图或流程图；简单问题不会自动制作网页或视频。它借鉴 ASD-STE100 的清晰写作目标，但不包含标准全文，也不进行正式合规认证。需要严格遵守该标准时，请从 [官方渠道](https://www.asd-ste100.org/STE_downloads.html) 获取当前版本并核对完整规则和词典。
